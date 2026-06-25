@@ -1,10 +1,9 @@
 # 📊 Sales Performance Dashboard (Excel)
 
 ## Overview
-The Sales Performance Dashboard is an interactive Excel-based dashboard designed to analyze and visualize sales data. It provides insights into sales trends, profit performance, customer distribution, and regional sales performance through dynamic charts and slicers.
+The Sales Performance Dashboard is an interactive Excel-based dashboard designed to analyze and visualize sales data across categories, regions, time, and customers. It provides insights into sales trends, profit performance, customer distribution, and regional sales performance through dynamic charts and slicers, built on a dataset of ~10,000 transaction records spanning 2014–2017.
 
 ## Features
-
 ### 📈 Sales Analysis
 - Sales by Category
 - Monthly Sales Trends
@@ -19,16 +18,8 @@ The Sales Performance Dashboard is an interactive Excel-based dashboard designed
 - Top 5 Customers Generating Profit
 
 ### 🎛 Interactive Filters
-- Category Filter:
-  - Furniture
-  - Office Supplies
-  - Technology
-
-- Year Filter:
-  - 2014
-  - 2015
-  - 2016
-  - 2017
+- **Category Filter:** Furniture, Office Supplies, Technology
+- **Year Filter:** 2014, 2015, 2016, 2017
 
 ## Tools Used
 - Microsoft Excel
@@ -37,11 +28,13 @@ The Sales Performance Dashboard is an interactive Excel-based dashboard designed
 - Slicers
 - Data Visualization Techniques
 
-## Key Insights
-- Technology category generated the highest profit growth over the years.
-- Sales peaked during the later months of the year.
-- Certain states contributed significantly higher sales compared to others.
-- A small group of customers contributed a large portion of overall profits.
+## Key Insights (calculated from the dataset)
+- **Technology was the top profit-generating category**, contributing **50.8% of total profit** (₹1,45,456 of ₹2,86,410 total), and its profit grew **135.8%** from 2014 to 2017 (₹21,493 → ₹50,685).
+- **Office Supplies followed at 42.8% of total profit**, while **Furniture trailed far behind at just 6.5%** despite steady unit sales — indicating thin margins on furniture items.
+- **Phones and Chairs were the top-selling categories** by revenue, contributing **14.4%** and **14.3%** of total sales respectively.
+- **The top 5 customers contributed 11.5% of total profit** (₹32,782 of ₹2,86,410), confirming a disproportionate profit concentration in a small customer base.
+- **California and New York alone drove 33.5% of total sales**, and the **top 5 states accounted for 52% of all sales** — showing heavy regional concentration.
+- **Sales were highly seasonal**: November was the peak month (₹3,52,461) while February was the weakest (₹59,751) — nearly a 6x difference. The second half of the year (Jul–Dec) generated **65% of annual sales**, pointing to a strong year-end sales push.
 
 ## How to Use
 1. Download the Excel file.
